@@ -1,0 +1,25 @@
+#EXTM3U
+# VLC master playlist — free/public streams only
+# NOTE: IPTV directory entries below are playlist URLs, not individual channel streams.
+# VLC support for opening a playlist URL as a nested item may vary.
+
+#EXTINF:-1 tvg-id="AajTak.in@SD" tvg-name="Aaj Tak" group-title="News",Aaj Tak
+https://feeds.intoday.in/aajtak/api/master.m3u8
+
+#EXTINF:-1 group-title="Marathi",Marathi channels playlist (IPTV-org)
+https://iptv-org.github.io/iptv/languages/mar.m3u
+
+#EXTINF:-1 group-title="Hindi",Hindi channels playlist (IPTV-org)
+https://iptv-org.github.io/iptv/languages/hin.m3u
+
+#EXTINF:-1 group-title="Religious",Religious channels playlist (IPTV-org)
+https://iptv-org.github.io/iptv/categories/religious.m3u
+
+#EXTINF:-1 group-title="News",News channels playlist (IPTV-org)
+https://iptv-org.github.io/iptv/categories/news.m3u
+
+# Medical & Pharma news are currently websites/videos, not verified 24x7 M3U8 live-TV streams.
+# ET HealthWorld: https://www.youtube.com/@ETHealthworldLive
+# PharmaBiz: https://www.youtube.com/@pharmabiznews
+# PharmaNation: https://www.pharmanation.in/
+# ET Pharma: https://pharma.economictimes.indiatimes.com/
